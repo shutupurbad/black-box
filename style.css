@@ -13,9 +13,14 @@ ul {
   padding-left: 40px;
 }
 
-a {   
-    border:none;
-    outline:none;
-    text-decoration:none;
-    color:#00e5ff; 
+a {
+  border:none;
+  outline:none;
+  text-decoration:none;
+  color:#00e5ff; 
+}
+
+.bug-reports {
+  font-weight: 500;
+  color: blue;
 }
