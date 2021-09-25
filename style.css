@@ -23,6 +23,11 @@ a {
   color:#00e5ff;
 }
 
+.center {
+  margin: auto;
+  width: 60%;
+}
+
 .button {
   border: none;
   color: white;
@@ -39,3 +44,10 @@ a {
 }
 
 .button {background-color: #008CBA;} /* Blue */
+
+.highest-donator {color:yellow;}
+
+.video {
+  height: 30%;
+  width: 100px;
+}
