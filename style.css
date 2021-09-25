@@ -12,3 +12,10 @@ ul {
   margin-right: 0;
   padding-left: 40px;
 }
+
+a {   
+    border:none;
+    outline:none;
+    text-decoration:none;
+    color:#00e5ff; 
+}
