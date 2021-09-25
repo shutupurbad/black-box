@@ -17,10 +17,22 @@ a {
   border:none;
   outline:none;
   text-decoration:none;
-  color:#00e5ff; 
+  color:#00e5ff;
 }
 
 .bug-reports {
+  border: none;
+  color: white;
+  padding: 1px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
   font-weight: 500;
-  color: blue;
+  border-radius: 3px;
+  font-family: "Times New Roman", Times, serif;
 }
+
+.button {background-color: #008CBA;} /* Blue */
