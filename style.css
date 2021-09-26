@@ -47,6 +47,13 @@ a {
   background-color: #008CBA;
 }
 
+.bg {
+  background-color: slategray;
+  padding-right: 1369px;
+  color: #387851;
+  cursor: default;
+}
+
 /* Blue */
 .highest-donator {
   color: yellow;
