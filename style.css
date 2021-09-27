@@ -50,7 +50,7 @@ a {
 .bg {
   background-color: slategray;
   padding-right: 1369px;
-  color: white;
+  color: #05f0e8;
   cursor: default;
 }
 
@@ -87,4 +87,12 @@ a {
 .ANDROID {
   width:10px;
   height:15px;
+}
+
+#import {
+  color: orange;
+}
+
+#url {
+  color: #05f0e8;
 }
