@@ -50,7 +50,7 @@ a {
 .bg {
   background-color: slategray;
   padding-right: 1369px;
-  color: #387851;
+  color: white;
   cursor: default;
 }
 
@@ -82,4 +82,9 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.ANDROID {
+  width:10px;
+  height:15px;
 }
