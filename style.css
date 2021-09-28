@@ -99,7 +99,6 @@ a {
 
 .red {
   background: #ff0000;
-  cursor: default;
   border: none;
   color: white;
   padding: 1px 3px;
@@ -108,6 +107,7 @@ a {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+  cursor: default;
   font-weight: 500;
   border-radius: 3px;
   font-family: "Times New Roman", Times, serif !important;
