@@ -85,8 +85,8 @@ a {
 }
 
 .ANDROID {
-  width:10px;
-  height:15px;
+  width: 10px;
+  height: 15px;
 }
 
 #import {
@@ -99,5 +99,17 @@ a {
 
 .red {
   background: #ff0000;
-  cursor: default !important;
+  cursor: default;
+  border: none;
+  color: white;
+  padding: 1px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 3px;
+  font-family: "Times New Roman", Times, serif !important;
 }
