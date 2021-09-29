@@ -146,7 +146,7 @@ a {
   border-color: #555 transparent transparent transparent;
 }
 
-.tooltip:hover #myTooltip:hover .tooltiptext {
+.tooltip:hover .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
 }
