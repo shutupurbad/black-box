@@ -118,7 +118,7 @@ a {
   display: inline-block;
 }
 
-.tooltip .tooltiptext {
+.tooltip .tooltiptext #myTooltip {
   visibility: hidden;
   width: 140px;
   background-color: #555;
