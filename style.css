@@ -112,3 +112,8 @@ a {
   border-radius: 3px;
   font-family: "Times New Roman", Times, serif !important;
 }
+
+.import {
+  background-color: gray;
+  color: black;
+}
