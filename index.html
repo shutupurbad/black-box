@@ -16,7 +16,8 @@
 <body>
   <hr>
   <div class="center">
-    <img src="https://cdn.discordapp.com/attachments/449176282689699850/661792853969862657/unknown.png"></img></div><a href="#important">Most important part of the site</a>
+    <img src="https://cdn.discordapp.com/attachments/449176282689699850/661792853969862657/unknown.png"></img>
+  </div><a href="#important">Most important part of the site</a>
   <hr>
   <p>Welcome to the <b>Black Box</b>. The Black Box team are a group of Developers making themes for Discord to make your experience with the app more fun.
     <br>
@@ -119,65 +120,77 @@
     </div>
     You can get them by posting in <a href="https://discord.com/channels/449175561529589761/886287835018178560" class="requests button">#background-requests</a> with the following format:<br>
     <div class="bg button">/bg imageLink</div>
+
+
+    <li>Can everyone see my personalized custom banner?
+      No. Only if they are using any of the following themes on this list https://github.com/Discord-Custom-Covers/usrbg#known-themes-that-have-usrbg-built-in as well as this plugin on their BetterDiscord https://betterdiscord.app/plugin/BDFDB will
+      they see the custom banners.</li>
+
+    </li>I don't like any of the themes listed. Can I add it to a theme I'm already using?
+    Of course. Just add this line of code in your theme file after all <span class="import button">@import</span> lines:<br>
+    <span id="import">@import url</span>("<span id="url">https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css</span>");</li>
+
+  </ol>
+
+  </p>
+  <hr>
+  <p>
+  <div class="center"><img id="important" src="https://cdn.discordapp.com/attachments/809973100828557352/891837886582890526/unknown_7_copy.png"></img>
+  </div>
+  <hr>
+  <b><u>HOW DO I SEE MY BACKGROUND?</u></b>
+  There are like four methods to do this but you only need to do one of them. Also if your background just got accepted wait like 5-10 minutes for it to show up.
+  <br>
+  🖥️ DESKTOP:
+
+  <ol>
+    <li><a href="https://raw.githubusercontent.com/Strencher/BetterDiscordStuff/master/UserBackgrounds/UserBackgrounds.plugin.js">The Plugin (RECOMMENDED)</a>
+      (Ctrl+S or ⌘+S to download)
+      (Note: You need ZeresPluginLibrary for the plugin, you likely already have it if you use other plugins, get it here: <a href="https://betterdiscord.app/Download?id=9">0PluginLibrary</a>)</li>
+
+    <li>The CSS Snippet
+      If you have BDFDB/any plugin by DevilBro then put this on top of your Custom CSS tab<br><br>
+
+      <span id="import">@import url</span>("<span id="url">https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css</span>");
+
+      <input type="text" value="@import url(&quot;https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css&quot);" readonly="readonly" id="myInput">
+
+      <div class="tooltip">
+        <button onclick="myFunction()" onmouseout="outFunc()">
+          <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+        </button>
+      </div>
+
+      <script>
+        function myFunction() {
+          var copyText = document.getElementById("myInput");
+          copyText.select();
+          copyText.setSelectionRange(0, 99999);
+          navigator.clipboard.writeText(copyText.value);
+
+          var tooltip = document.getElementById("myTooltip");
+          tooltip.innerHTML = "Copied: " + copyText.value;
+        }
+
+        function outFunc() {
+          var tooltip = document.getElementById("myTooltip");
+          tooltip.innerHTML = "Copy to clipboard";
+        }
+      </script>
+    </li>
+    <br><br>
+    <li>Using a Theme that Supports USRBG
+      Self explanatory, use one of these themes: <a href="https://github.com/Discord-Custom-Covers/usrbg#known-themes-that-have-usrbg-built-in">Known USRBG Themes</a> |
+      <div class="red">Note:You’ll also need BDFDB/any plugin by DevilBro for this method</div>
+    </li>
+
+    <li> <img class="ANDROID" src="https://cdn.discordapp.com/attachments/809973100828557352/891865715659927613/889990840188014602.png"></img<pre>
+      </pre>ANDROID:
+
+      Get <a href="https://github.com/Aliucord/Aliucord">Aliucord</a> then use this plugin: <a href="https://github.com/terabyte25/plugins/blob/builds/UserBG.zip?raw=true">UserBG Android</a>
+    </li>
+    </ul>
     </p>
-    <hr>
-    <p>
-    <div class="center"><img id="important"src="https://cdn.discordapp.com/attachments/809973100828557352/891837886582890526/unknown_7_copy.png"></img>
-    </div>
-    <hr>
-    <b><u>HOW DO I SEE MY BACKGROUND?</u></b>
-    There are like four methods to do this but you only need to do one of them. Also if your background just got accepted wait like 5-10 minutes for it to show up.
-    <br>
-    🖥️ DESKTOP:
-
-    <ol>
-      <li><a href="https://raw.githubusercontent.com/Strencher/BetterDiscordStuff/master/UserBackgrounds/UserBackgrounds.plugin.js">The Plugin (RECOMMENDED)</a>
-        (Ctrl+S or ⌘+S to download)
-        (Note: You need ZeresPluginLibrary for the plugin, you likely already have it if you use other plugins, get it here: <a href="https://betterdiscord.app/Download?id=9">0PluginLibrary</a>)</li>
-
-      <li>The CSS Snippet
-        If you have BDFDB/any plugin by DevilBro then put this on top of your Custom CSS tab<br><br>
-
-        <span id="import">@import url</span>("<span id="url">https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css</span>");
-
-        <input type="text" value="@import url(&quot;https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css&quot);" readonly="readonly" id="myInput">
-
-        <div class="tooltip">
-          <button onclick="myFunction()" onmouseout="outFunc()">
-            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-          </button>
-        </div>
-
-        <script>
-          function myFunction() {
-            var copyText = document.getElementById("myInput");
-            copyText.select();
-            copyText.setSelectionRange(0, 99999);
-            navigator.clipboard.writeText(copyText.value);
-
-            var tooltip = document.getElementById("myTooltip");
-            tooltip.innerHTML = "Copied: " + copyText.value;
-          }
-
-          function outFunc() {
-            var tooltip = document.getElementById("myTooltip");
-            tooltip.innerHTML = "Copy to clipboard";
-          }
-        </script>
-      </li>
-      <br><br>
-      <li>Using a Theme that Supports USRBG
-        Self explanatory, use one of these themes: <a href="https://github.com/Discord-Custom-Covers/usrbg#known-themes-that-have-usrbg-built-in">Known USRBG Themes</a> |
-        <div class="red">Note:You’ll also need BDFDB/any plugin by DevilBro for this method</div>
-      </li>
-
-      <li> <img class="ANDROID" src="https://cdn.discordapp.com/attachments/809973100828557352/891865715659927613/889990840188014602.png"></img<pre>
-        </pre>ANDROID:
-
-        Get <a href="https://github.com/Aliucord/Aliucord">Aliucord</a> then use this plugin: <a href="https://github.com/terabyte25/plugins/blob/builds/UserBG.zip?raw=true">UserBG Android</a>
-      </li>
-      </ul>
-      </p>
 
 </body>
 
