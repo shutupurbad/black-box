@@ -113,9 +113,10 @@ a {
   font-family: "Times New Roman", Times, serif !important;
 }
 
-.code-import {
+.code-block {
   background-color: gray;
-  color: black;
+  color: white;
+  cursor: default;
 }
 
 .code {
