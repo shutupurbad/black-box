@@ -117,3 +117,10 @@ a {
   background-color: gray;
   color: black;
 }
+
+.code {
+    background-color: slategray;
+    padding-right: 900px;
+    color: #05f0e8;
+    cursor: default;
+}
