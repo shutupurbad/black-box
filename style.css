@@ -125,3 +125,52 @@ a {
     color: #05f0e8;
     cursor: default;
 }
+
+.sidenav {
+  border: 1px solid white;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.openNav {
+	position: fixed;
+	z-index: 1;
+	top: 150px;
+	left: 40px;
+	top: 20px;
+	color:black;
+	border: 3px solid white;
+	background: white;
+	border-radius: 10px;
+}
