@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
+  <title>Black Box FAQ</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto&amp;text=%20AYabcdgehilmnostuvy1" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/gif/png" href="https://cdn.discordapp.com/icons/449175561529589761/a_927da1c2b111767f3df61e31d1949a96.gif?size=256">
-  <title>Black Box FAQ</title>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="This was made to help people follow directions in the Black Box server. The website is now completed, please join the Black Box server if you need any more support.">
@@ -14,11 +14,29 @@
 </head>
 
 <body>
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="#info">Info</a>
+<a href="#faq">FAQ</a>
+<a href="#requests">Requests</a>
+</div>
   <hr>
   <div class="center">
     <img src="https://cdn.discordapp.com/attachments/449176282689699850/661792853969862657/unknown.png">
-  </div><a href="#important">Most important part of the site</a>
-  <hr>
+    </div>
+    <hr>
+    <div id="main"><span class="openNav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+    <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
   <p>
     Welcome to the <b>Black Box</b>. The Black Box team are a group of Developers making themes for Discord to make your experience with the app more fun.
     <br><br>
@@ -51,7 +69,6 @@
   Powercord:
   ▶️ <a href="https://powercord.dev/installation">Powercord Installation</a> ◀️
   <br>
-
   ℹ️ WANT TO FIND MORE THEMES? ℹ️
   <br>
   You can find more BetterDiscord themes in Gibbu's Repository of Themes and Plugins. Link is found below:
@@ -91,13 +108,13 @@
   </ul>
   <hr>
   <div class="center">
-    <img src="https://cdn.discordapp.com/attachments/644175893308243968/646019708319170563/unknown.png">
+    <img id="faq" src="https://cdn.discordapp.com/attachments/644175893308243968/646019708319170563/unknown.png">
   </div>
   <hr>
   <ol>
 
       <!-- FAQ:1 -->
-      <li><b>How do I download themes?</b></li> Go to the Downloads category and browse the channels to see which theme you would want to download.
+      <li><b>How do I download themes?</b>Go to the Downloads category and browse the channels to see which theme you would want to download.</li>
 
       <!-- FAQ:2 -->
       <li>
@@ -199,7 +216,7 @@
 
   <hr>
   <p>
-  <div class="center"><img id="important" src="https://cdn.discordapp.com/attachments/809973100828557352/891837886582890526/unknown_7_copy.png">
+  <div class="center"><img id="requests" src="https://cdn.discordapp.com/attachments/809973100828557352/891837886582890526/unknown_7_copy.png">
   </div>
   <hr>
   <b><u>HOW DO I SEE MY BACKGROUND?</u></b>
@@ -265,7 +282,7 @@
       <hr>
   </p>
   <p>
-      Background requests will <b><em>ONLY</em></b> work if you use this format:
+      Background requests will <b><em>ONLY &nbsp;</em></b>work if you use this format:
       <br><img src="https://cdn.discordapp.com/attachments/886287835018178560/889581170117967943/unknown.png"><br>
       <u><b><em>PLEASE ALSO PRESS TAB OR CLICK ON</em></b></u> <span class="code-block button link">link</span> or it WON'T work.
       There is now a 1 hour message cooldown on <a href="https://discord.com/channels/449175561529589761/886287835018178560" class="requests button">#background-requests</a>, so be careful of what you typed into the command bar.
@@ -276,10 +293,10 @@
       They have to be using BetterDiscord and have a theme that supports the user backgrounds/have the USERBG plugin. <em><u>This does not upload your image into the Discord database for everyone to see.</u></em>
 
       For more resources, visit <a href="https://github.com/Discord-Custom-Covers/usrbg">https://github.com/Discord-Custom-Covers/usrbg</a>.
-      <br><br>
+      <br><br> 
       <b><u><em>IMGUR LINKS WILL ONLY WORK IF IT'S I.IMGUR.COM, NOT IMGUR.COM</em></u></b>
       <a href="https://shouldiblamecaching.com/">https://shouldiblamecaching.com/</a><br>
       <sup>Credit to christian#1111 for Black Box template</sup><br>
-    <iframe src="https://discord.com/widget?id=449175561529589761&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    <iframe src="https://discord.com/widget?id=449175561529589761&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
 </body>
 </html>
